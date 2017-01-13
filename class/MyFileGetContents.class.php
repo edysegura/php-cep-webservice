@@ -2,7 +2,7 @@
 /**
  *
  * MyFileGetContents
- * @author Edy Segura, edy@segura.pro.br
+ * @author Edy Segura, edysegura@gmail.com
  *
  **/
 

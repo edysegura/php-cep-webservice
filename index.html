@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.pro.br" />
+<meta name="description" content="Busca do endereço pelo CEP, usando AJAX e WebService" />
+<title>Busca do endereço pelo CEP, usando AJAX e WebService</title>
+
+<!-- Externals -->
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<script type="text/javascript" src="js/Ajax.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>Busca do endereço pelo CEP, usando AJAX e WebService</h1>
+<p>
+	Exemplo de uma aplicação web que faz a busca do endereço pelo CEP, usando a metodologia AJAX e WebService. <br />
+	Para mais detalhes veja o código fonte fazendo 
+	<a href="http://files.edysegura.com/labs/busca-por-cep.zip">downlaod</a> deste 
+	<a href="http://files.edysegura.com/labs/busca-por-cep.zip">exemplo</a>.
+</p>
+
+<form action="" id="frmCEP" method="post">
+  <fieldset>
+  	<legend>Endereço:</legend>
+		
+		<div class="cep">
+			<label for="cep">CEP</label>:
+			<input type="text" name="cep" id="cep" /> ex.: 
+			<span>37550-000</span>,
+			<span>37540-000</span> ou 
+			<span>22210-000</span>
+			<button>Buscar Endereço</button>
+		</div>
+		
+		<div class="rua">
+			<label for="rua">Rua</label>:
+			<input type="text" name="rua" id="rua" />
+		</div>
+		
+		<div class="numero">
+			<label for="numero">N&deg;</label>:
+			<input type="text" name="numero" id="numero" size="3" />
+		</div>
+		
+		<div class="complemento">
+			<label for="complemento">Complemento</label>:
+			<input type="text" name="complemento" id="complemento" />
+		</div>
+		
+		<div class="bairro">
+			<label for="bairro">Bairro</label>:
+			<input type="text" name="bairro" id="bairro" />
+		</div>
+		
+		<div class="cidade">
+			<label for="cidade">Cidade</label>:
+			<input type="text" name="cidade" id="cidade" />
+		</div>
+		
+		<div class="estado">
+			<label for="estado">Estado</label>:
+			<input type="text" name="estado" id="estado" size="2" />
+		</div>
+		
+		<div class="botoes">
+			<button type="submit">Cadastrar</button>
+			<button type="reset">Limpar</button>
+		</div>
+		
+  </fieldset>
+</form>
+
+</body>
+</html>

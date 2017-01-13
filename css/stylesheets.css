@@ -1,0 +1,19 @@
+/* CSS Document
+Autor: Edy Segura - infoedy@gmail.com
+Descrição: Definição da página index.html
+*/
+
+label {
+	display:block;
+	float:left;
+	width:100px;
+	text-align:right;
+}
+
+input {
+	width:200px;
+}
+
+form div[class] {
+	margin-bottom:2px;
+}
